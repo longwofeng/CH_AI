@@ -1,0 +1,10 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+ultralytics==8.3.40
+pillow==11.0.0
+httpx==0.28.1
+
+# Pinned runtime stack for reproducible installs.
+numpy==1.26.4
+torch==2.4.1
+torchvision==0.19.1

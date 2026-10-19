@@ -1,0 +1,13 @@
+/low-altitude-agent/
+├── README.md
+├── requirements.txt
+├── Dockerfile
+├── train.py              # 数据转换 + YOLO微调脚本
+├── main.py               # FastAPI推理服务
+├── agent_prompt.md       # Dify Agent的提示词与节点配置说明
+├── assets/
+│   ├── demo_input.jpg    # 样例输入
+│   ├── demo_output.json  # 接口返回示例
+│   └── agent_screenshot.png  # Dify编排界面截图
+└── docs/
+    └── architecture.md   # 架构图 + 业务逻辑说明
